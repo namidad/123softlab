@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "701ae6abd4719e9c2ada3535a497b341",
-    "url": "/123softlab/static/media/outline-icons.701ae6ab.eot"
+    "revision": "cd6c777f1945164224dee082abaea03a",
+    "url": "/123softlab/static/media/outline-icons.cd6c777f.woff2"
   },
   {
-    "revision": "e1ad47b8bb2b46477502",
+    "revision": "586f32645ebae8246d80",
     "url": "/123softlab/static/css/main.6604be4d.chunk.css"
   },
   {
@@ -40,12 +40,12 @@ self.__precacheManifest = [
     "url": "/123softlab/static/media/icons.b87b9ba5.ttf"
   },
   {
-    "revision": "cd6c777f1945164224dee082abaea03a",
-    "url": "/123softlab/static/media/outline-icons.cd6c777f.woff2"
+    "revision": "701ae6abd4719e9c2ada3535a497b341",
+    "url": "/123softlab/static/media/outline-icons.701ae6ab.eot"
   },
   {
-    "revision": "e1ad47b8bb2b46477502",
-    "url": "/123softlab/static/js/main.e1ad47b8.chunk.js"
+    "revision": "586f32645ebae8246d80",
+    "url": "/123softlab/static/js/main.586f3264.chunk.js"
   },
   {
     "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/123softlab/static/css/2.ed399907.chunk.css"
   },
   {
-    "revision": "a2f29896d00732db95758319c865e8da",
+    "revision": "b4e2cc42328d817b5b9da0f9b44db19a",
     "url": "/123softlab/index.html"
   }
 ];
