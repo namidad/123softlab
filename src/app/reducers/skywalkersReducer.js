@@ -1,5 +1,6 @@
 const initialState = {
     skywalkersList: [],
+    fetched: false,
 }
 
 const skywalkersReducer = (state=initialState, action) => {
@@ -7,10 +8,14 @@ const skywalkersReducer = (state=initialState, action) => {
         case 'ADD_SKYWALKERS' :
             state = {
                 skywalkersList: action.skywalkers.results,
+                fetched: true,
             }
             return state;
         case 'DELETE_SKYWALKER' :
-            console.log(action.name);
+            state = {
+                skywalkersList: [...state.skywalkersList.filter(sky => sky.name!==action.name)],
+                fetched: true,
+            }
             return state;
         default:
         return state

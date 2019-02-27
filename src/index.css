@@ -6,7 +6,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #151519;
 }
 
 code {
@@ -22,4 +21,20 @@ code {
   height: 100vh;
   justify-content:space-around;
   align-items: center;
+}
+
+
+.skywalkerContainer {
+  background: #151519;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.btnMargin {
+  margin-bottom: 39px;
 }

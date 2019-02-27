@@ -9,8 +9,8 @@ class App extends Component {
     return (
       <div >
         <Switch>
-          <Route exact path='/' component={HomePage} />
-          <Route exact path='/skywalker/:id' component={Skywalker} />
+          <Route exact path='/123softlab/' component={HomePage} />
+          <Route exact path='/123softlab/skywalker/:id' component={Skywalker} />
         </Switch>
       </div>
     );
