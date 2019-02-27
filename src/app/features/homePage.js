@@ -8,13 +8,13 @@ import Loader from 'react-loader-spinner'
 class HomePage extends Component {
 
     componentWillMount(){
-        if(!this.props.fetch){
+        if(!this.props.fetch || this.props.list.length===0){
             fetch('https://swapi.co/api/people/?search=Skywalker&format=json')
             .then(response => response.json())
             .then(skywalkers => {
                 this.props.addSkywalkers(skywalkers);
             })
-        }
+        } 
     }
 
   render() {
@@ -37,7 +37,7 @@ class HomePage extends Component {
         return(
             <div className={"gridContainer"}>
                 <Loader 
-                type="Puff"
+                type="Triangle"
                 color="red"
                 height="100"
                 width="100"
