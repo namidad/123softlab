@@ -21,6 +21,8 @@ code {
   height: 100vh;
   justify-content:space-around;
   align-items: center;
+  flex-wrap: wrap;
+
 }
 
 
@@ -33,8 +35,39 @@ code {
   justify-content: space-around;
   align-items: center;
   color: white;
+  flex-wrap: wrap;
 }
+
+.detailsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.detailsContainer div{
+ border: 1px solid #990000;
+ width: 30%;
+ padding: 20px;
+}
+.detailsContainer div p{
+  text-align: center;
+ }
+
+ .detailsContainer div p span{
+  color: red;
+}
+ 
 
 .btnMargin {
   margin-bottom: 39px;
+}
+
+.buttonsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

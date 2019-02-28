@@ -23,19 +23,24 @@ class Skywalker extends Component {
 
     return (
       <div className={"skywalkerContainer"}>
-        <h1>Name: {skywalker.name}</h1>
-        <h3>Height: {skywalker.height}</h3>
-        <h3>Mass: {skywalker.mass}</h3>
-        <h3>Hair Color: {skywalker.hair_color}</h3>
-        <h3>Skin Color: {skywalker.skin_color}</h3>
-        <h3>Eye color: {skywalker.eye_color}</h3>
-        <h3>Birth Year: {skywalker.birth_year}</h3>
-        <h3>Gender: {skywalker.gender}</h3>
-        <h3 className={"btnMargin"}>Amount of films: {skywalker.films.length}</h3>
-        <div>
-         <Button onClick={this.handleBack} inverted color="green">Back to Skywalkers family members</Button>
-         <Button onClick={this.handleDeleteSkywalker} inverted color="red">Delete {skywalker.name}</Button>
-        </div>
+      <div className={"detailsContainer"}>
+      <div>
+        <p>Name: <span>{skywalker.name}</span></p>
+        <p>Gender: <span>{skywalker.gender}</span></p>
+        <p>Birth Year: <span>{skywalker.birth_year}</span></p>
+        <p>Height: <span>{skywalker.height}</span></p>
+       </div>
+       <div>
+        <p>Mass: <span>{skywalker.mass}</span></p>
+        <p>Hair Color: <span>{skywalker.hair_color}</span></p>
+        <p>Skin Color: <span>{skywalker.skin_color}</span></p>
+        <p>Eye color: <span>{skywalker.eye_color}</span></p>
+       </div>  
+      </div>
+       <div className={"buttonsContainer"}>
+        <Button onClick={this.handleBack} inverted color="green">Back to Skywalkers family members</Button>
+        <Button onClick={this.handleDeleteSkywalker} inverted color="red">Delete {skywalker.name}</Button>
+       </div>
       </div>
     )
   }
