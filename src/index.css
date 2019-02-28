@@ -35,7 +35,6 @@ code {
   justify-content: space-around;
   align-items: center;
   color: white;
-  flex-wrap: wrap;
 }
 
 .detailsContainer {
@@ -45,11 +44,14 @@ code {
   justify-content: space-around;
   align-items: center;
   color: white;
+  flex-wrap: wrap;
+
 }
 
 .detailsContainer div{
  border: 1px solid #990000;
  width: 30%;
+ min-width: 300px;
  padding: 20px;
 }
 .detailsContainer div p{
@@ -70,4 +72,6 @@ code {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
+
 }
