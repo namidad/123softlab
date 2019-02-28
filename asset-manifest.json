@@ -1,16 +1,16 @@
 {
-  "main.css": "/123softlab/static/css/main.6604be4d.chunk.css",
-  "main.js": "/123softlab/static/js/main.586f3264.chunk.js",
-  "main.js.map": "/123softlab/static/js/main.586f3264.chunk.js.map",
+  "main.css": "/123softlab/static/css/main.e39b2379.chunk.css",
+  "main.js": "/123softlab/static/js/main.6855d1aa.chunk.js",
+  "main.js.map": "/123softlab/static/js/main.6855d1aa.chunk.js.map",
   "runtime~main.js": "/123softlab/static/js/runtime~main.9e59e9e9.js",
   "runtime~main.js.map": "/123softlab/static/js/runtime~main.9e59e9e9.js.map",
   "static/css/2.ed399907.chunk.css": "/123softlab/static/css/2.ed399907.chunk.css",
   "static/js/2.56af4002.chunk.js": "/123softlab/static/js/2.56af4002.chunk.js",
   "static/js/2.56af4002.chunk.js.map": "/123softlab/static/js/2.56af4002.chunk.js.map",
   "index.html": "/123softlab/index.html",
-  "precache-manifest.fa3c83ed6399eaf3482ee0f212b7ab7a.js": "/123softlab/precache-manifest.fa3c83ed6399eaf3482ee0f212b7ab7a.js",
+  "precache-manifest.b536d5a78bea46dae54b1a900f2c5722.js": "/123softlab/precache-manifest.b536d5a78bea46dae54b1a900f2c5722.js",
   "service-worker.js": "/123softlab/service-worker.js",
   "static/css/2.ed399907.chunk.css.map": "/123softlab/static/css/2.ed399907.chunk.css.map",
-  "static/css/main.6604be4d.chunk.css.map": "/123softlab/static/css/main.6604be4d.chunk.css.map",
+  "static/css/main.e39b2379.chunk.css.map": "/123softlab/static/css/main.e39b2379.chunk.css.map",
   "static/media/semantic.min.css": "/123softlab/static/media/outline-icons.ef60a4f6.woff"
 }
