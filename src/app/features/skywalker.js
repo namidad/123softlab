@@ -21,7 +21,7 @@ class Skywalker extends Component {
 
     const skywalker = this.props.list[this.props.match.params.id];
 
-    return (
+    return ( 
       <div className={"skywalkerContainer"}>
       <div className={"detailsContainer"}>
       <div>
